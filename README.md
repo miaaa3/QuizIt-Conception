@@ -37,22 +37,31 @@ QuizIt est une application qui offre une opportunité d'apprentissage en ligne e
 ## 3. Contexte:
 
 ### 1. Environnement dans lequel le projet sera mis en œuvre:
+   - La création d'une interface web accessible depuis divers navigateurs.
+   - La mise en place d'une base de données pour stocker les questions et les résultats.
+   - Le développement d'une interface utilisateur intuitive et réactive.
+   - L'intégration de fonctionnalités sociales pour encourager les échanges.
+   - La mise en œuvre de mesures de sécurité robustes pour protéger les données des utilisateurs.
+
 
 ### 2. Contraintes et dépendances avec d'autres projets ou systèmes:
+   - **Délai de réalisation** : 4 semaines à partir de la date de début.
+   - **Équipe** : Cinq membres, chacun apportant des compétences spécifiques.
+   - **Technologies** : Utilisation des dernières technologies web pour une expérience optimale.
 
 # 4. Besoin du client:
 
 ## 1. Exigences fonctionnelles:
-- Authentification: L’application doit permettre aux utilisateurs de s'inscrire, de se connecter et de gérer leur compte, y compris la récupération de mot de passe et la modification des informations personnelles.
-- Mémoriser les connaissances: Permettre aux utilisateurs de personnaliser l'expérience éducative sous forme de flashcards.
-- Avoir des certificats: Les utilisateurs peuvent utiliser les certificats pour enrichir leur CV, comme preuve tangible des compétences acquises et pour motiver les participants à s'engager dans l'apprentissage.
+- **Authentification** : L’application doit permettre aux utilisateurs de s'inscrire, de se connecter et de gérer leur compte, y compris la récupération de mot de passe et la modification des informations personnelles.
+- **Mémoriser les connaissances** : Permettre aux utilisateurs de personnaliser l'expérience éducative sous forme de flashcards.
+- **Avoir des certificats** : Les utilisateurs peuvent utiliser les certificats pour enrichir leur CV, comme preuve tangible des compétences acquises et pour motiver les participants à s'engager dans l'apprentissage.
 
 ## 2. Exigences non fonctionnelles:
-- Rapidité: L’application doit être rapide dans le traitement des images pour réduire le temps de réponse.
-- Fiabilité: L’application ne doit pas afficher d'erreurs aux utilisateurs; toutes les exceptions doivent être gérées et enregistrées dans les logs du backend.
-- Sécurité: L’application doit être hautement sécurisée pour protéger les données sensibles des clients.
-- Performance: La réponse du système doit être rapide, quelle que soit l’action de l’utilisateur.
-- Convivialité: L’application doit être simple et facile à manipuler même par des non-experts.
+- **Rapidité** : L’application doit être rapide dans le traitement des images pour réduire le temps de réponse.
+- **Fiabilité** : L’application ne doit pas afficher d'erreurs aux utilisateurs; toutes les exceptions doivent être gérées et enregistrées dans les logs du backend.
+- **Sécurité** : L’application doit être hautement sécurisée pour protéger les données sensibles des clients.
+- **Performance** : La réponse du système doit être rapide, quelle que soit l’action de l’utilisateur.
+- **Convivialité** : L’application doit être simple et facile à manipuler même par des non-experts.
 
 # 5. Portée du projet:
 
@@ -101,10 +110,10 @@ L'équipe de développement est composée de six membres.
 # 10. Ressources:
 
 ## 1. Personnel:
-- Chef de projet.
-- Développeur Front-End.
-- Développeur Back-End.
-- Testeur.
+- Chef de projet : **GHOUTANI HICHAM**
+- Développeur Front-End : **BELMOUADDINE MERYEM - GHOUFRANE ALI**.
+- Développeur Back-End : **BOULOUDEN OUISSAL - CHKAIFI ZINEB**.
+- Testeur : **GHOUTANI HICHAM**
 
 ## 2. Équipements:
 - Ordinateurs personnels.
