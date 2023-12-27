@@ -1,23 +1,25 @@
 # 1. Introduction:
 
 ## 1. Objectif du document:
-Ce document vise à établir une base solide pour la planification, la conception et l'implémentation du projet d'application de quiz en utilisant Angular comme langage de programmation principal avec le Framework Laravel.
+Ce document a pour mission de jeter les bases solides du projet QuizIt, détaillant la planification, la conception et la mise en œuvre. Il met en lumière l'utilisation d'Angular en tant que langage de programmation principal, associé au Framework Laravel. 
 
 ## 2. Contexte du projet:
-Le principal objectif de ce projet est de concevoir, développer et mettre en œuvre une application de quiz interactive et conviviale. L'application devra offrir une expérience utilisateur engageante tout en permettant aux utilisateurs de partager et participer à des quiz sur des sujets dans le domaine de l'informatique. L'objectif ultime est de fournir une plateforme éducative et divertissante pour aider les étudiants à bien se préparer aux différents concours d'accès aux établissements d'enseignement supérieur.
+QuizIT émerge dans le contexte de l'apprentissage en ligne, répondant à la demande croissante de connaissances informatiques. Utilisant Angular et Laravel, le projet vise à créer une plateforme interactive offrant une expérience éducative moderne et accessible à tous. La vision de QuizIt est de transcender les normes de l'apprentissage traditionnel, offrant une opportunité immersive d'explorer et de maîtriser l'informatique.
 
 ## 3. Parties prenantes et leurs rôles:
-1. Client:
-   - Les étudiants sont les principaux bénéficiaires et utilisateurs finaux de l'application de quiz. Leur rôle est d'utiliser l'application pour se préparer de manière efficace aux concours d'accès aux établissements d'enseignement supérieur en informatique.
+1. Clients:
+   - Les étudiants se préparent aux concours et examens.
+   - Les passionnés d'informatique cherchent à approfondir leurs connaissances.
+   - Leur rôle est d'utiliser QuizIT pour des quiz éducatifs et explorer divers sujets informatiques.
 
-2. Développeurs:
-   - Chef de Projet.
-   - Analyse des besoins.
-   - Conception.
-   - Développeurs Frontend.
-   - Développeurs Backend.
-   - Designers UI/UX.
-   - Testeurs.
+2. Équipe de Développement :
+   - Chef de Projet : Supervise le projet pour répondre aux besoins variés des utilisateurs.
+   - Analyse des Besoins : Identifie les exigences éducatives et informatives des utilisateurs.
+   - Conception : Crée une plateforme qui engage et informe les utilisateurs.
+   - Développeurs Frontend : Optimisent l'interface pour une expérience utilisateur intuitive.
+   - Développeurs Backend : Assurent la disponibilité et la précision des informations.
+   - Designers UI/UX : S'assurent que l'interface est attrayante et conviviale.
+   - Testeurs : Évaluent la pertinence des quiz et la fluidité du site.
 
 3. Utilisateurs Finaux:
    - Étudiants, utilisateurs simples.
@@ -25,7 +27,7 @@ Le principal objectif de ce projet est de concevoir, développer et mettre en œ
 # 2. Présentation du projet:
 
 ## 1. Description générale du projet:
-QuizIt est une application qui offre une opportunité d'apprentissage en ligne et d'évaluation des compétences. Elle permettra aux utilisateurs de passer, partager et évaluer des quiz sur une variété de sujets dans le domaine de l'informatique.
+QuizIT est une application qui offre une opportunité d'apprentissage en ligne et d'évaluation des compétences. Elle permettra aux utilisateurs de passer, partager et évaluer des quiz sur une variété de sujets dans le domaine de l'informatique.
 
 ## 2. Buts et objectifs:
 - Aider les étudiants et les personnes intéressées dans le domaine informatique.
@@ -52,21 +54,23 @@ QuizIt est une application qui offre une opportunité d'apprentissage en ligne e
 # 4. Besoin du client:
 
 ## 1. Exigences fonctionnelles:
-- **Authentification** : L’application doit permettre aux utilisateurs de s'inscrire, de se connecter et de gérer leur compte, y compris la récupération de mot de passe et la modification des informations personnelles.
-- **Mémoriser les connaissances** : Permettre aux utilisateurs de personnaliser l'expérience éducative sous forme de flashcards.
-- **Avoir des certificats** : Les utilisateurs peuvent utiliser les certificats pour enrichir leur CV, comme preuve tangible des compétences acquises et pour motiver les participants à s'engager dans l'apprentissage.
+- **Authentification :** L’application doit permettre aux utilisateurs de s'inscrire, de se connecter et de gérer leur compte, y compris la récupération de mot de passe et la modification des informations personnelles.
+- **Participation aux Quiz :** Les utilisateurs enregistrés peuvent participer à des quiz, sélectionner des réponses et recevoir des résultats instantanés.
+- **Classements :** Les scores des utilisateurs doivent être enregistrés, permettant la création de classements et la mise en compétition entre les participants.
+- **Mémoriser les connaissances :**  Permettre aux utilisateurs de personnaliser l'expérience éducative sous forme de flashcards.
+- **Avoir des certificats :** Les utilisateurs peuvent utiliser les certificats pour enrichir leur CV, comme preuve tangible des compétences acquises et pour motiver les participants à s'engager dans l'apprentissage.
 
 ## 2. Exigences non fonctionnelles:
-- **Rapidité** : L’application doit être rapide dans le traitement des images pour réduire le temps de réponse.
-- **Fiabilité** : L’application ne doit pas afficher d'erreurs aux utilisateurs; toutes les exceptions doivent être gérées et enregistrées dans les logs du backend.
-- **Sécurité** : L’application doit être hautement sécurisée pour protéger les données sensibles des clients.
-- **Performance** : La réponse du système doit être rapide, quelle que soit l’action de l’utilisateur.
-- **Convivialité** : L’application doit être simple et facile à manipuler même par des non-experts.
+- **Compatibilité :** L'application doit être compatible avec différents navigateurs web pour assurer une accessibilité étendue.
+- **Maintenance :** Le système doit être facile à entretenir, avec la possibilité de mettre à jour régulièrement les quiz et les fonctionnalités.
+- **Sécurité :** L’application doit être hautement sécurisée pour protéger les données sensibles des clients.
+- **Performance :** Le temps de réponse de l'application doit être rapide, même lors de périodes de charge élevée.
+- **Disponibilité :** L'application doit être disponible 24/7, avec des temps d'arrêt planifiés minimisés.
+- **Évolutivité :** Le système doit être évolutif pour accommoder une augmentation du nombre d'utilisateurs et de quiz.
 
 # 5. Portée du projet:
 
 ## 1. Inclus:
-- Création de Quiz.
 - Participation.
 - Gestion des utilisateurs.
 - Catégories de Quiz.
@@ -102,18 +106,33 @@ L'équipe de développement est composée de six membres.
 # 8. Livrables:
 
 ## 1. Produits ou résultats attendus:
+- Plateforme web fonctionnelle répondant aux spécifications énoncées.
+- Documentation technique détaillée.
+- Rapport de test et résolution des bugs éventuels.
 
 # 9. Planning:
-
-## 1. Les jalons clés:
+   - **Phase de Conception :**
+   Début : 18 décembre 2023
+   Fin : 25 décembre 2023
+   
+   - **Phase de Développement :**
+   Début : 26 décembre 2023 
+   Fin : 8 janvier 2024
+   
+   - **Phase de Test :**
+   Début :  9 janvier 2024
+   Fin : 15 janvier 2024
+    
+  - **Livraison des Livrables :**
+   Date Limite : 15 janvier 2024
 
 # 10. Ressources:
 
 ## 1. Personnel:
-- Chef de projet : **GHOUTANI HICHAM**
-- Développeur Front-End : **BELMOUADDINE MERYEM - GHOUFRANE ALI**.
-- Développeur Back-End : **BOULOUDEN OUISSAL - CHKAIFI ZINEB**.
-- Testeur : **GHOUTANI HICHAM**
+- Chef de projet : **GHOUTANI Hicham**
+- Développeur Front-End : **BELMOUADDINE Meryem - GHOUFRANE Ali**
+- Développeur Back-End : **BOULOUDEN Ouissal - CHKAIFI Zineb**
+- Testeur : **GHOUTANI Hicham**
 
 ## 2. Équipements:
 - Ordinateurs personnels.
@@ -155,6 +174,10 @@ L'équipe de développement est composée de six membres.
 # 13. Conditions contractuelles : 
 
 ## 1.Termes et conditions spécifiques : 
+**Chronologie Interne :** Le projet devra être conclu dans une fenêtre de quatre semaines à compter de la date de début, à moins d'une entente explicite entre les parties engagées.
+**Partage Équitable des Avancées :** Les droits de propriété intellectuelle issus du produit final seront répartis équitablement, reconnaissant ainsi les contributions individuelles à l'ensemble du projet.
+**Flexibilité dans l'Évolution :** Notre approche reste souple, permettant des ajustements raisonnables au cahier des charges à mesure que le projet évolue.
+**Participation Active :** Chaque partie s'engage à une participation active, favorisant un environnement de travail collaboratif et stimulant.
 
 # 14.	Validation : 
 
